@@ -10,17 +10,11 @@
 <body>
   <div>
     <h1 class="title">Tarefas do dia 28/11/2022</h1>
-    <ul>
-      <li class="list-item">Estudar os conceitos de Node.js</li>
-      <li class="list-item">Praticar Node.js</li>
-      <li class="list-item">Nas pausas - Conferir jogo do Brasil</li>
-      <li class="list-item">Estudar React.js Native</li>
-      <li class="list-item">Praticar Funções e Arrays em Java Script</li>
-    </ul>
+    <ul  class="list-item" id="list"></ul>
   </div>
   <div>
     <input type="text" name="task_name" id="task_name" placeholder="Nome da Tarefa">
-    <button>Adicionar</button>
+    <button onclick="addNewTask()">Adicionar</button>
   </div>
 
   <script src="scripts/script.js"></script>

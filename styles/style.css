@@ -4,6 +4,7 @@ body {
   background-color: #1c1c1c;
   color: white;
   font-family: monospace;
+  padding: 24px;
 }
 
 .title {
@@ -22,5 +23,23 @@ input {
   color: white;
   border-color: #00ff7f;
   border-radius: 5px;
-  font-size: 32px;
+  font-size: 16px;
+  padding: 8px;
+}
+
+button {
+  color: white;
+  font-family: monospace;
+  font-size: 16px;
+  font-weight: bolder;
+  padding: 16px;
+  background-color: #228b22;
+  border-width: 0px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.add-task-button:hover {
+  background-color: #30a530;
 }
